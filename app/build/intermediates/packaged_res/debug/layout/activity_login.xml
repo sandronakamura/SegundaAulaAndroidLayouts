@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#000">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"
+        tools:context=".MainActivity">
+
+        <TextView
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+        android:text="@string/nome_de_usuario"
+        android:textColor="#fff"
+        android:textSize="18dp"/>
+
+
+        <EditText
+            android:layout_width="356dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/border_radius"/>
+
+        <TextView
+            android:layout_width="356dp"
+            android:layout_height="wrap_content"
+            android:text="@string/senha"
+            android:textColor="#fff"
+            android:textSize="18dp"/>
+
+        <EditText
+            android:layout_width="356dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/border_radius"/>
+
+        <TextView
+            android:layout_width="356dp"
+            android:layout_height="wrap_content"
+            android:text="@string/problemas_com_login"
+            android:textColor="#6441a5"
+            android:textSize="18dp"
+            android:layout_marginBottom="16dp"/>
+
+
+        <Button
+            android:layout_height="wrap_content"
+            android:text="@string/fazer_login"
+            android:backgroundTint="#686767"
+            android:layout_width="356dp"
+            android:textColor="#f1f1f1"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

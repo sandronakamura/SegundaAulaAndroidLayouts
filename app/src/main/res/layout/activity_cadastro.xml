@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:gravity="center"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@color/black">
+
+
+
+    <TextView
+        android:id="@+id/txtTelefone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/numero_de_telefone"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        />
+
+    <EditText
+        android:id="@+id/edtTelefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtTelefone"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/border_radius"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/em_vez_disso_use_o_email"
+        android:textColor="@color/purple"
+        android:layout_below="@id/edtTelefone"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/txtUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nome_de_usuario"
+        android:layout_below="@id/txtEmail"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/edtUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/txtUsuario"
+        android:background="@drawable/border_radius"/>
+
+    <TextView
+        android:id="@+id/txtSenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/senha"
+        android:layout_below="@id/edtUsuario"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/edtSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/txtSenha"
+        android:background="@drawable/border_radius"/>
+
+    <TextView
+        android:id="@+id/txtNascimento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/data_de_nascimento"
+        android:layout_below="@id/edtSenha"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/edtNascimento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/border_radius"
+        android:layout_below="@id/txtNascimento"/>
+
+    <TextView
+        android:id="@+id/txtTermos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/termos_de_servico"
+        android:textColor="@color/white"
+        android:layout_below="@id/edtNascimento"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/cadastrar_se"
+        android:backgroundTint="@color/dark_gray"
+        android:layout_below="@id/txtTermos"
+        android:textColor="@color/white"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable border_radius
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+layout activity_cadastro
+layout activity_login
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string fazer_login
+string nome_de_usuario
+string problemas_com_login
+string senha
+style Theme.PrimeirAula
+xml backup_rules
+xml data_extraction_rules

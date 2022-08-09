@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PrimeirAula.iml" filepath="$PROJECT_DIR$/.idea/modules/PrimeirAula.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PrimeirAula.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PrimeirAula.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PrimeirAula.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PrimeirAula.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PrimeirAula.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PrimeirAula.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PrimeirAula.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PrimeirAula.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>
